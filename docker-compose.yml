@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   axonserver:
-    image: axoniq/axonserver:4.5.7-dev
+    image: axoniq/axonserver:${AXONSERVER_VERSION:-4.5.7-dev}
     hostname: axonserver
     container_name: axonserver
     environment:
